@@ -1,13 +1,13 @@
 /* Header classes */
 .header {
-  background-color: aquamarine;
-  margin: 92px auto;
-  width: 1340px;
-  height: 109px;
-  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
+  width: 1340px;
+  height: 109px;
+  margin: 92px auto;
+  background-color: aquamarine;
 }
 
 .header__menu {
@@ -22,10 +22,10 @@
 }
 
 .header__links-list-item {
-  list-style: circle;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -54,9 +54,9 @@
 .address {
   width: 240px;
   font-size: 18px;
+  font-style: normal;
   line-height: 1.35;
   text-underline-offset: 4px;
-  font-style: normal;
 }
 
 .header__address {
