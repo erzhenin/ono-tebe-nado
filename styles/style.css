@@ -7,7 +7,6 @@
   width: 1340px;
   height: 109px;
   margin: 92px auto;
-  background-color: aquamarine;
 }
 
 .header__menu {
@@ -61,4 +60,99 @@
 
 .header__address {
   justify-self: end;
+}
+
+/* Cover classes */
+
+.cover {
+  position: relative;
+  z-index: 0;
+  width: 1440px;
+  margin: 0 auto 180px auto;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  background-position-y: -15px;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.cover__title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 50px 135px 50px;
+  color: white;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 115px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  padding-top: 165px;
+}
+
+.aligned-text_center {
+  line-height: 100px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  line-height: 100px;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: right;
+}
+
+.cover__description-text {
+  margin-top: 12px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px; /* 127.273% */
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  margin: 0 50px 50px 78px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 12px 32px;
 }
