@@ -211,7 +211,6 @@
 }
 
 .card__title {
-  position: relative;
   z-index: 2;
   padding: 50px 40px 0 40px;
   color: #fff;
