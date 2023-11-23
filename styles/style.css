@@ -188,14 +188,14 @@
 }
 
 .card {
-  background-position: center;
-  background-size: cover;
   position: relative;
   z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
