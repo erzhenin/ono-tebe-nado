@@ -179,7 +179,7 @@
   display: block;
   flex-grow: 1;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .card-link {
