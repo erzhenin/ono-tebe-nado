@@ -68,8 +68,8 @@
   max-width: 1440px;
   margin: 0 auto 180px auto;
   background-image: url(../images/cover.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -139,10 +139,10 @@
 
 .bet-button {
   margin: 0 50px 50px 78px;
-  border: 1px solid #fff;
-  font-family: inherit;
+  border: 1px solid currentColor;
   padding: 12px 32px;
   color: #fff;
+  font-family: inherit;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
