@@ -69,7 +69,7 @@
   margin: 0 auto 180px auto;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  background-position-y: -15px;
+  background-position: center;
 }
 
 .overlay {
